@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
   # DELETE /plants/:id
   delete "/plants/:id", to: "plants#delete"
+
+##patch
+  patch "/plants/:id", to: "plants#update"
 end
